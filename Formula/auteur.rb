@@ -3,12 +3,12 @@ class Auteur < Formula
   homepage "https://auteur.tronica.io"
   license "NOASSERTION"
   head "https://github.com/patrixr/auteur.git"
-  version "0.0.18"
+  version "0.0.19"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/patrixr/auteur/releases/download/v#{version}/auteur-v#{version}-darwin-arm64.tar.gz"
-      sha256 "046ccc4dfafaa7a94cd62b846d2d8b48217ab9d10b1ed932a13bf8102669b0ec"
+      sha256 "84388c124aecff32fd2615c1271513c4b9009c880475a572b3c39292a70b3c45"
 
       def install
           bin.install "auteur" => "auteur"
@@ -17,7 +17,7 @@ class Auteur < Formula
 
     if Hardware::CPU.intel?
       url "https://github.com/patrixr/auteur/releases/download/v#{version}/auteur-v#{version}-darwin-amd64.tar.gz"
-      sha256 "cbf612a6b9e46992745ebb31f9b99b69a82d9963fe8cbd13c471a7706f46cda4"
+      sha256 "a8df3f82c43ea7a78c4fef582702c43605efd47e7540b9f16144ae73499d798e"
 
       def install
           bin.install "auteur" => "auteur"
