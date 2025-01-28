@@ -3,7 +3,7 @@ class Auteur < Formula
   homepage "https://auteur.tronica.io"
   license "NOASSERTION"
   head "https://github.com/patrixr/auteur.git"
-  versiom "0.0.17"
+  version "0.0.17"
 
 
   on_macos do
